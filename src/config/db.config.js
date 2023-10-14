@@ -3,8 +3,17 @@ const DBConfig = {
     USER: process.env.DB_RAILWAY_USERNAME,
     PASSWORD: process.env.DB_RAILWAY_PASSWORD,
     PORT: process.env.DB_RAILWAY_PORT,
-    DB_RAILWAY_NAME: process.env.DB_RAILWAY_NAME
+    DB_RAILWAY_NAME: process.env.DB_RAILWAY_NAME,
+    URL: process.env.DB_RAILWAY_URL
 };
+
+
+
+
+
+
+
+
 // const DBConfig = {
 //     HOST: process.env.DB_HOST,
 //     USER: process.env.DB_USERNAME,
