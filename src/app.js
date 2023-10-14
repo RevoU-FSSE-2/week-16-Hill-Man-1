@@ -18,7 +18,7 @@ const cookieParser = require('cookie-parser')
 
 
 const app = express();
-const port = process.env.DB_PORT
+const port = process.env.port || 7935
 
 app.use(bodyParser.json())
 app.use(cookieParser())
