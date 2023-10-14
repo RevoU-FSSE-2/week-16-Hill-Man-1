@@ -15,7 +15,7 @@ const db = {
     user: DBConfig.USER,
     password: DBConfig.PASSWORD,
     port:DBConfig.PORT,
-    database: DBConfig.DB_NAME
+    database: DBConfig.DB_RAILWAY_NAME
 };
 
 module.exports = mysql.createPool(db);
